@@ -8,11 +8,11 @@ public class CameraController : MonoBehaviour
     public Vector3 offset;
     public float zoomSpeed = 4f;
     public float minZoom = 5f;
-    public float maxZoom = 15f;
+    public float maxZoom = 8f;
     public float pitch = 2f;
     public float yawSpeed = 100f;
-    private float currentZoom = 10f;
-    public float currentYaw = 0f;
+    private float currentZoom = 5f;
+    public float currentYaw = 10f;
 
 
 
